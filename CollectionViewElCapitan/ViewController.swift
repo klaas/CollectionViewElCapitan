@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController, NSCollectionViewDataSource, NSCollectionViewDelegate {
+class ViewController: NSViewController, NSCollectionViewDataSource {
 	var strings = ["Peter", "Florian", "Ruediger", "John", "Paul", "George", "Ringo"].sort()
 	
 	@IBOutlet weak var collectionView: NSCollectionView!
@@ -16,7 +16,6 @@ class ViewController: NSViewController, NSCollectionViewDataSource, NSCollection
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		collectionView.delegate = self
 		collectionView.dataSource = self
 	}
 

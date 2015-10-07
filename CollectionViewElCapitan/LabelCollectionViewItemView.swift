@@ -4,7 +4,8 @@ import Foundation
 import AppKit
 
 class LabelCollectionViewItemView: NSView {
-	// MARK: - 🔴🔴🔴🔴🔴 properties 🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
+
+	// MARK: properties
 	
 	var selected: Bool = false {
 		didSet {
@@ -21,7 +22,7 @@ class LabelCollectionViewItemView: NSView {
 		}
 	}
 	
-	// MARK: - 🔴🔴🔴🔴🔴 NSView 🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
+	// MARK: NSView
 
 	override var wantsUpdateLayer: Bool {
 		return true
@@ -38,7 +39,7 @@ class LabelCollectionViewItemView: NSView {
 		
 	}
 
-	// MARK: - 🔴🔴🔴🔴🔴 init 🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
+	// MARK: init
 
 	override init(frame frameRect: NSRect) {
 		super.init(frame: frameRect)
