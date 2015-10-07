@@ -8,20 +8,28 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
+class ViewController: NSViewController, NSCollectionViewDataSource, NSCollectionViewDelegate {
+	var strings = ["Peter", "Florian", "Ruediger", "John", "Paul", "George", "Ringo"].sort()
+	
+	@IBOutlet weak var collectionView: NSCollectionView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		// Do any additional setup after loading the view.
+		collectionView.delegate = self
+		collectionView.dataSource = self
 	}
 
-	override var representedObject: AnyObject? {
-		didSet {
-		// Update the view, if already loaded.
-		}
+	// MARK: NSCollectionViewDataSource
+	
+	func collectionView(collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
+		return strings.count
 	}
-
-
+	
+	func collectionView(collectionView: NSCollectionView, itemForRepresentedObjectAtIndexPath indexPath: NSIndexPath) -> NSCollectionViewItem {
+		let item = collectionView.makeItemWithIdentifier("LabelCollectionViewItem", forIndexPath: indexPath)
+		item.representedObject = LabelObject(title: strings[indexPath.item])
+		return item
+	}
 }
 
