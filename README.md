@@ -7,7 +7,7 @@ It uses the standard Cocoa Application template and has a single view controller
 
 ### Notes
 
-There is still a bug in Xcode (as of 7.0.1. (7A1001)): When you add a NSCollectionView within Interface Bulider you'll get a compile error saying:
+There is still a bug in Xcode (as of 7.3 (7D175)): When you add a NSCollectionView within Interface Bulider you'll get a compile error saying:
 
 `Main.storyboard: error: Unknown segue relationship: Prototype`
 
