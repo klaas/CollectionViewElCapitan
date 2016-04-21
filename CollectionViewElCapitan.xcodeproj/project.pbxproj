@@ -11,9 +11,10 @@
 		4AB7DD071BC52289003661BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7DD061BC52289003661BF /* ViewController.swift */; };
 		4AB7DD091BC52289003661BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7DD081BC52289003661BF /* Assets.xcassets */; };
 		4AB7DD0C1BC52289003661BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7DD0A1BC52289003661BF /* Main.storyboard */; };
-		4AB7DD161BC522F2003661BF /* LabelCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7DD131BC522F2003661BF /* LabelCollectionViewItem.swift */; settings = {ASSET_TAGS = (); }; };
-		4AB7DD171BC522F2003661BF /* LabelCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7DD141BC522F2003661BF /* LabelCollectionViewItem.xib */; settings = {ASSET_TAGS = (); }; };
-		4AB7DD181BC522F2003661BF /* LabelCollectionViewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7DD151BC522F2003661BF /* LabelCollectionViewItemView.swift */; settings = {ASSET_TAGS = (); }; };
+		4AB7DD161BC522F2003661BF /* LabelCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7DD131BC522F2003661BF /* LabelCollectionViewItem.swift */; };
+		4AB7DD171BC522F2003661BF /* LabelCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7DD141BC522F2003661BF /* LabelCollectionViewItem.xib */; };
+		4AB7DD181BC522F2003661BF /* LabelCollectionViewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7DD151BC522F2003661BF /* LabelCollectionViewItemView.swift */; };
+		4AE776A21CC8E9780002CD33 /* NSView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE776A11CC8E9780002CD33 /* NSView+AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4AB7DD131BC522F2003661BF /* LabelCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewItem.swift; sourceTree = "<group>"; };
 		4AB7DD141BC522F2003661BF /* LabelCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewItem.xib; sourceTree = "<group>"; };
 		4AB7DD151BC522F2003661BF /* LabelCollectionViewItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewItemView.swift; sourceTree = "<group>"; };
+		4AE776A11CC8E9780002CD33 /* NSView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+AutoLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4AB7DD031BC52289003661BF /* CollectionViewElCapitan */ = {
 			isa = PBXGroup;
 			children = (
+				4AE776A11CC8E9780002CD33 /* NSView+AutoLayout.swift */,
 				4AB7DD131BC522F2003661BF /* LabelCollectionViewItem.swift */,
 				4AB7DD151BC522F2003661BF /* LabelCollectionViewItemView.swift */,
 				4AB7DD141BC522F2003661BF /* LabelCollectionViewItem.xib */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE776A21CC8E9780002CD33 /* NSView+AutoLayout.swift in Sources */,
 				4AB7DD181BC522F2003661BF /* LabelCollectionViewItemView.swift in Sources */,
 				4AB7DD071BC52289003661BF /* ViewController.swift in Sources */,
 				4AB7DD051BC52289003661BF /* AppDelegate.swift in Sources */,
@@ -284,6 +288,7 @@
 				4AB7DD121BC52289003661BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
