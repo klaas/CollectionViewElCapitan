@@ -13,6 +13,6 @@ There is still a bug in Xcode (as of 7.3 (7D175)): When you add a NSCollectionVi
 
 The workaround used in this project is to remove the segue and create a .xib file containing the collection view item. The filename can then be used as an item identifier.
 
+### Programmatic Version
 
-
-
+The branch `ProgrammaticVersion` contains a second `NSCollectionView` that does not rely on any Interface Builder files.
