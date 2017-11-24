@@ -1,3 +1,5 @@
+🚨 **This is a Swift 2 repo. The updated version: <https://github.com/klaas/CollectionViewSwift4>** 🚨
+
 # CollectionViewElCapitan
 Apple changed the way `NSCollectionView` works in OS 10.11 as shown in the talk ["What's New in NSCollectionView"](https://developer.apple.com/videos/play/wwdc2015-225/) at WWDC 2015. They also provide a complex example written in Objective-C: [CocoaSlideCollection](https://developer.apple.com/library/mac/samplecode/CocoaSlideCollection/Introduction/Intro.html)
 
